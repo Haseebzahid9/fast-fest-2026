@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>FAST Fest 2026 – Campus Event Portal</title>
+
+  <link rel="stylesheet" href="style.css" />
+
+  <style>
+    h2 {
+      margin-bottom: 0.3rem;
+    }
+    .profile-name {
+      font-size: 36px;
+    }
+    #events-section {
+      border-left: 3px solid #c9a84c;
+    }
+    /* Override avatar to show image properly */
+    .profile-avatar {
+      overflow: hidden;
+      padding: 0;
+    }
+    .profile-avatar img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      border-radius: 50%;
+      display: block;
+    }
+  </style>
+</head>
+
+<body style="background: #080808; min-height: 100vh;">
+  <nav aria-label="Main navigation">
+    <div class="nav-inner">
+      <a href="#home" class="nav-logo">FAST <span>Fest</span> '26</a>
+      <ul class="nav-links">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#events-section">Events</a></li>
+        <li><a href="#effects-section">Register</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <header id="home" class="hero" role="banner">
+    <div class="hero-content">
+      <h1>FAST <span>Fest</span> 2026</h1>
+      <p>Campus Event Portal &nbsp;&bull;&nbsp; FAST NUCES, Faisalabad</p>
+      <span class="hero-badge">Registrations Are Now Open</span>
+    </div>
+  </header>
+
+  <main>
+
+    <section class="section" aria-labelledby="profile-heading">
+      <h2 class="section-title" id="profile-heading">Student Profile</h2>
+
+      <div id="profile">
+
+        <!-- Profile photo replacing emoji -->
+        <div class="profile-avatar" title="Student Avatar">
+          <img src="haseeb.jpg" alt="Haseeb Zahid" />
+        </div>
+
+        <div class="profile-info">
+          <div class="profile-name">Haseeb Zahid</div>
+
+          <div class="profile-meta">
+            <span class="badge badge-roll">Roll No: 23F-0644</span>
+            <span class="badge badge-section">Section: 6F</span>
+          </div>
+
+          <p class="profile-intro">
+            I am a 3 <sup>rd</sup> year Computer Science student at FAST NUCES. I enjoy
+            programming, learning new technologies, and taking part in campus
+            activities. I am taking part in FAST Fest 2026 as both a competitor
+            and a volunteer. I hope to gain new skills and meet new people through
+            these events.
+          </p>
+
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="events-section" aria-labelledby="events-heading">
+      <h2 class="section-title" id="events-heading">Upcoming Events</h2>
+
+      <div class="cards-grid">
+
+        <article class="card" aria-label="Coding Competition">
+          <div class="card-img-placeholder" style="background: #111;">💻</div>
+          <div class="card-body">
+            <span class="card-tag">Technology</span>
+            <h3 class="card-title">Coding Competition</h3>
+            <p class="card-desc">
+              Test your coding skills in a series of timed rounds. You will
+              solve problems related to algorithms and logic. The event is
+              open to all students, no matter their experience level.
+            </p>
+            <a href="#effects-section" class="btn-register">Register Now</a>
+          </div>
+        </article>
+
+        <article class="card" aria-label="Gaming Tournament">
+          <div class="card-img-placeholder" style="background: #0e0e0e;">🎮</div>
+          <div class="card-body">
+            <span class="card-tag">Gaming</span>
+            <h3 class="card-title">Gaming Tournament</h3>
+            <p class="card-desc">
+              Join the campus gaming tournament and compete with students
+              from all departments. The finals will be held live in the
+              main hall with an audience. Team and solo categories are both
+              available.
+            </p>
+            <a href="#effects-section" class="btn-register">Register Now</a>
+          </div>
+        </article>
+
+        <article class="card" aria-label="Singing Competition">
+          <div class="card-img-placeholder" style="background: #121212;">🎤</div>
+          <div class="card-body">
+            <span class="card-tag">Performing Arts</span>
+            <h3 class="card-title">Singing Competition</h3>
+            <p class="card-desc">
+              Show your vocal talent on stage in front of a live crowd.
+              Solo and duet performances are welcome. A panel of judges
+              will score each performance based on voice, expression, and
+              stage presence.
+            </p>
+            <a href="#effects-section" class="btn-register">Register Now</a>
+          </div>
+        </article>
+
+      </div>
+    </section>
+
+    <section class="section" id="effects-section" aria-labelledby="effects-heading">
+      <h2 class="section-title" id="effects-heading">CSS Effects</h2>
+
+      <div class="effects-grid">
+        <div class="effect-box effect-scale">
+          <span style="font-size:2rem;">🔍</span>
+          Scale
+          <span class="effect-label">Hover to try</span>
+        </div>
+        <div class="effect-box effect-rotate">
+          <span style="font-size:2rem;">🔄</span>
+          Rotate
+          <span class="effect-label">Hover to try</span>
+        </div>
+        <div class="effect-box effect-transition">
+          <span style="font-size:2rem;">🎨</span>
+          Transition
+          <span class="effect-label">Hover to try</span>
+        </div>
+        <div class="effect-box effect-animated">
+          <span style="font-size:2rem;">⚽</span>
+          Animation
+          <span class="effect-label">Auto playing</span>
+        </div>
+        <div class="effect-box effect-textshadow">
+          Glow ✨
+          <span class="effect-label">Text Shadow</span>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="contact" aria-labelledby="contact-heading">
+      <h2 class="section-title" id="contact-heading">Contact Us</h2>
+
+      <p class="contact-info">
+        If you have any questions about events, registration, or schedules,
+        feel free to reach out to the student events team. You can email us at
+        <a href="mailto:events@nu.edu.pk">events@nu.edu.pk</a> or visit our
+        desk in EDC Room, CS Block. We are available Monday to Friday from
+        10 AM to 4 PM.
+      </p>
+
+      <div style="display:flex; gap:1rem; flex-wrap:wrap;">
+        <a href="mailto:events@nu.edu.pk" class="btn-register">Email Us</a>
+        <a href="#home" class="btn-outline">Back to Top</a>
+      </div>
+
+    </section>
+
+  </main>
+
+  <footer>
+    <p>FAST Fest 2026 &nbsp;|&nbsp; Made by <span>Haseeb Zahid</span> &nbsp;|&nbsp; 23F-0644 &nbsp;|&nbsp; Section 6F &nbsp;|&nbsp; FAST NUCES</p>
+  </footer>
+
+</body>
+</html>
